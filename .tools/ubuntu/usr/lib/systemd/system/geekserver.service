@@ -1,0 +1,13 @@
+[Unit]
+Description=geekserver
+After=syslog.target network.target
+
+[Service]
+Type=simple
+Environment="TERM=xterm-256color"
+WorkingDirectory=/opt/geekros/release
+ExecStart=/opt/geekros/release/geekserver server
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
