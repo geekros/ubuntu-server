@@ -12,5 +12,5 @@ Your device should meet the following basic requirements.
 
 ```shell
 Distributor ID: Ubuntu
-Description:    Ubuntu 20.04 LTS、Ubuntu 22.04 LTS
+Description:    Ubuntu 20.04 LTS、Ubuntu 22.04 LTS、Ubuntu 24.04 LTS
 ```
